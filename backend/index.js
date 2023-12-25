@@ -16,6 +16,7 @@ const routes = require('./routes/index');
 
 app.use('/doctor', routes.doctorInfo)
 app.use('/bookSlot', routes.bookSlots)
+app.use('/getotp', routes.getotp)
 
 app.listen(PORT, async () => {
     try{

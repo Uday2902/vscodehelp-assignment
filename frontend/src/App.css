@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.icon-divs:hover{
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.faq-boxes:hover{
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slot-boxes:hover{
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.continue-button:hover{
+  cursor: pointer;
+}
+
+.custom-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 1rem;
+  border-bottom: 1px solid black;
+  margin-top: 1rem;
+}
+
+.home-page-links:hover{
+  cursor: pointer;
+}
+
+.home-page-links{
+  height: 4rem;
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 15rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.home-page-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-page-main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+button:hover{
+  cursor: pointer;
 }
