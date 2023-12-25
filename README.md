@@ -13,6 +13,7 @@ A brief description of what this project does and who it's for
 ### Step - 06 : select your email id and paste it in same ```.env``` file like this : ```EMAIL_ADDRESS=<abc123@gmail.com>```
 ### Step - 07 : sign in with your email id in any browser then go to ```Manage your account``` then go to ```Security``` then turn on ```2Step Verification``` go to at the end in 2Step Verification option, and select ```App passwords``` and make new password and copy it to clipboard
 ### Step - 08 : go back to ```.env``` file and paste copied password like this ```EMAIL_ADDRESS_PASSWORD=<paste-copied-password-here>```
-### Step - 09 : go to backend folder and run command ```node index.js```. Once connection with database successfully established, then go to frontend folder and run command ```npm start``` 
-### Step - 10 : open browser and type ```http://localhost:3000``` and you are there!
+### Step - 09 : go to index.js file in backend folder and remove comment from two lines - ```14``` and ```27```.
 
+### Step - 10 : go to backend folder and run command ```node index.js```. Once connection with database successfully established, then go to frontend folder and run command ```npm start``` 
+### Step - 11 : open browser and type ```http://localhost:3000``` and you are there!
