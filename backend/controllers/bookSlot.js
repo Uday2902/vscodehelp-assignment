@@ -37,9 +37,9 @@ const sendVerificationEmail = (userEmailAddress, generatedOTP, name, date, time)
 const bookSlot = async (req, res) => {
 
     const { name, date, time, email } = req.body;
-    console.log(name, date, time);
+    console.log(name,date,time);
     const doctor = await Models.Slots.updateOne(
-        { "name": name, "slots.date": date, "slots.slots.time": time },
+        { "name": name, "slots.date": date },
         { "$set": { "slots.$.slots.$[elem].available": false } },
         { arrayFilters: [{ "elem.time": time }] }
     );

@@ -27,6 +27,7 @@ function SlotsBooking({ slots, doctorName, speciality }) {
     const results = await getSlotsForDate(
       day.slice(0, -5) + ", " + day.slice(-4)
     );
+    console.log("results for date : ",day.slice(0, -5) + ", " + day.slice(-4),results)
     setFinalSlots(results);
     console.log(`You clicked on ${day}`);
     console.log("slots", slots);
